@@ -46,7 +46,16 @@ export const DashboardMenu = [
 			{ id: uuid(), link: '/pages/pricing', name: 'Pricing'},
 			{ id: uuid(), link: '/not-found', name: '404 Error' }
 		]
-	},	
+	},
+	{
+		id: uuid(),
+		title: 'Kullanıcı Yönetimi',
+		icon: 'layers',
+		children: [
+			{ id: uuid(), link: '/pages/users/add-user', name: 'Kullanıcı Ekle' },
+			{ id: uuid(), link: '/pages/users', name: 'Kullanıcılar'},
+		]
+	},
 	{
 		id: uuid(),
 		title: 'Authentication',

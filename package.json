@@ -21,7 +21,7 @@
     "nextjs-template",
     "react-dashboard",
     "bootstrap 5"
-    ],
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -52,5 +52,9 @@
     "simplebar": "^6.2.5",
     "simplebar-react": "^3.2.4",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.9.3",
+    "typescript": "5.3.2"
   }
 }
