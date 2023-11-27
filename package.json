@@ -1,11 +1,7 @@
 {
-  "name": "dashui-free-nextjs-admin-template",
+  "name": "graphic-admin-dashboard",
   "version": "1.1.0",
   "private": true,
-  "author": {
-    "name": "codescandy",
-    "url": "https://codescandy.com"
-  },
   "keywords": [
     "react",
     "javascript",
