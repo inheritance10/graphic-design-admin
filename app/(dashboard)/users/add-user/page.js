@@ -2,7 +2,6 @@
 import { Container } from 'react-bootstrap';
 
 
-import {GeneralSetting} from "../../../../sub-components";
 import {PageHeading} from "../../../../widgets";
 import UserForm from "../partials/UserForm";
 

@@ -58,6 +58,15 @@ export const DashboardMenu = [
 	},
 	{
 		id: uuid(),
+		title: 'Kategori Yönetimi',
+		icon: 'layers',
+		children: [
+			{ id: uuid(), link: '/categories/add-category', name: 'Kategori Ekle' },
+			{ id: uuid(), link: '/categories', name: 'Kategoriler'},
+		]
+	},
+	{
+		id: uuid(),
 		title: 'Authentication',
 		icon: 'lock',
 		children: [

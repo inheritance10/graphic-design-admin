@@ -1,16 +1,13 @@
 'use client'
-import { Container } from 'react-bootstrap';
-
-
-import {GeneralSetting} from "../../../../../sub-components";
-import {PageHeading} from "../../../../../widgets";
+import {Container, Table} from "react-bootstrap";
+import {PageHeading} from "../../../widgets";
 
 const Categories = () => {
-    return (
+    return(
         <Container fluid className="p-6">
 
+            {/* Page Heading */}
             <PageHeading heading="Kategoriler" />
-
             <Table hover className="text-nowrap">
                 <thead >
                 <tr>
@@ -41,9 +38,9 @@ const Categories = () => {
                 </tbody>
             </Table>
 
-
         </Container>
+
     )
 }
 
-export default AddUser
+export default Categories

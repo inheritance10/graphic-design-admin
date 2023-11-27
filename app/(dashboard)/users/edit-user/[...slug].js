@@ -13,7 +13,6 @@ const EditUser = () => {
             {/* Page Heading */}
             <PageHeading heading="Kullanıcı Düzenle" />
 
-
             <UserForm id={1}/>
 
         </Container>
